@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     prova01Button.addEventListener("click", function() {
         // Redirecionar para a página da Prova 01 (substitua "prova01.html" pelo nome do arquivo da primeira prova).
-        window.location.href = "../ProvaN1.html";
+        window.location.href = "/HTML/ProvaN1.html";
     });
 
     prova02Button.addEventListener("click", function() {
