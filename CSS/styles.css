@@ -56,10 +56,6 @@ body {
   color: #fff;
 }
 
-/* .btn:disabled{
-  cursor: no-drop;
-} */
-
 #next-btn {
   background: #001e4d;
   color: #fff;
@@ -68,7 +64,6 @@ body {
   border: 0;
   padding: 10px;
   margin: 20px;
-  margin-left: 390px;
   border-radius: 4px;
   cursor: pointer;
   display: none;
