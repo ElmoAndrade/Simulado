@@ -191,7 +191,7 @@ let score = 0;
 function starQuiz(){
     currentQuestionIndex = 0;
     score = 0;
-    nextButton.innerHTML = "Next";
+    nextButton.innerHTML = "Próximo";
     ShowQuestion();
 }
 
