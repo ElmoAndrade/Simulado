@@ -1,34 +1,184 @@
 const questions = [
     {
-        questions:"qunatos anos eu tenho?",
+        questions:"A DISTÁNCIA ENTRE URUGUAIANA E PORTO ALEGRE É DE?",
         answers: [
-            { text: "19", correct: false},
-            { text: "18", correct: false},
-            { text: "17", correct: false},
-            { text: "15", correct: false},
-            { text: "20", correct: true},
+            { text: "288 NM.", correct: false},
+            { text: "278 NM.", correct: false},
+            { text: "298 NM.", correct: false},
+            { text: "308 NM.", correct: true},
         ]
     },
     {
-        questions:"Qual é meu nome?",
+        questions:"O RUMO MAGNÉTICO DE URUGUAIANA PARA PORTO ALEGRE É DE?",
         answers: [
-            { text: "Henrique", correct: false},
-            { text: "Elmo", correct: true},
-            { text: "Erisson", correct: false},
-            { text: "Erick", correct: false},
-            { text: "Ira", correct: false},
+            { text: "097º.", correct: false},
+            { text: "107°.", correct: true},
+            { text: "092°", correct: false},
+            { text: "082°", correct: false},
         ]
     },
     {
-        questions:"Qual é o nome do maior mamifero aquatico?",
+        questions:"A VELOCIDADE EM RELAÇÃO AO SOLO (VS) DURANTE A SUBIDA PARA PORTO ALEGRE É DE?",
         answers: [
-            { text: "elefante", correct: false},
-            { text: "cobra", correct: false},
-            { text: "sapo", correct: false},
-            { text: "baleia", correct: true},
-            { text: "Onça", correct: false},
+            { text: "333 KT.", correct: false},
+            { text: "363 KT.", correct: false},
+            { text: "343 KT.", correct: true},
+            { text: "353 KT.", correct: false},
         ]
-    }
+    },
+    {
+        questions:"A PROA MAGNÉTICA NO FL250 É DE?",
+        answers: [
+            { text: "047º.", correct: false},
+            { text: "067º.", correct: true},
+            { text: "077º.", correct: false},
+            { text: "057º.", correct: false},
+        ]
+    },
+    {
+        questions:"NO FL250, A PROA BÚSSOLA É DE 070°. O DESVIO DE BÚSSOLA É DE?",
+        answers: [
+            { text: "03°W.", correct: true},
+            { text: "05°E.", correct: false},
+            { text: "03°E.", correct: false},
+            { text: "05°W.", correct: false},
+        ]
+    },
+    {
+        questions:"O CONSUMO ATÉ ATINGIR O INÍCIO DA DESCIDA (TOD) PARA FLORIANÓPOLIS É DE?",
+        answers: [
+            { text: "4534 KG.", correct: false},
+            { text: "4334 KG.", correct: true},
+            { text: "4634 KG.", correct: false},
+            { text: "4434 KG.", correct: false},
+        ]
+    },
+    {
+        questions:"A DISÂANCIA DE DESCIDA EM FLORIANÓPOLIS É DE?",
+        answers: [
+            { text: "64 NM.", correct: false},
+            { text: "84 NM.", correct: true},
+            { text: "54 NM.", correct: false},
+            { text: "74 NM.", correct: false},
+        ]
+    },
+    {
+        questions:"PARA A AUTONOMIA DESSE VOO, A QUANTIDADE DE COMBUSTÍVEL RESERVA EQUIVALE A?",
+        answers: [
+            { text: "10 MIN.", correct: false},
+            { text: "05 MIN.", correct: true},
+            { text: "08 MIN.", correct: false},
+            { text: "30 MIN.", correct: false},
+        ]
+    },
+    {
+        questions:"A QUANTIDADE MÍNIMA REQUERIDA DE COMBUSTÍVEL PARA REALIZAÇÃO DESSE VOO É DE?",
+        answers: [
+            { text: "5784 KG.", correct: false},
+            { text: "6184 KG.", correct: false},
+            { text: "5984 KG.", correct: true},
+            { text: "6384 KG", correct: false},
+        ]
+    },
+    {
+        questions:"O COMBUSTÍVEL MÍNIMO REQUERIDO EQUIVALE À AUTONOMIA MÍNIMA REGULAMENTAR (RBAC 121) DE?",
+        answers: [
+            { text: "01H09MIN.", correct: false},
+            { text: "01H59MIN.", correct: true},
+            { text: "01H39MIN.", correct: false},
+            { text: "01H29MIN.", correct: false},
+        ]
+    },
+    {
+        questions:"A COMPONENTE DE VENTO PREDOMINANTE É DE?",
+        answers: [
+            { text: "PROA NO FL290 E NO FL250.", correct: false},
+            { text: "PROA NO FL290 E DE CAUDA NO FL250.", correct: true},
+            { text: "CAUDA NO FL290 E DE PROA NO FL250.", correct: false},
+            { text: "CAUDA NO FL290 E NO FL250.", correct: false},
+        ]
+    },
+    {
+        questions:"O COMPRIMENTO DA PISTA DE URUGUAIANA É?",
+        answers: [
+            { text: "2000 M.", correct: false},
+            { text: "1000 M.", correct: false},
+            { text: "1500 M.", correct: true},
+            { text: "2500 M.", correct: false},
+        ]
+    },
+    {
+        questions:"A VISIBILIDADE MÍNIMA PARA POUSO NA PISTA 32 DE FLORIANÓPOLIS, CONSIDERANDO O ALS INOP, DE UMA AERONAVE CATEGORIA A, É DE?",
+        answers: [
+            { text: "1600 M.", correct: true},
+            { text: "2000 M.", correct: false},
+            { text: "2800 M.", correct: false},
+            { text: "4800 M.", correct: false},
+        ]
+    },
+    {
+        questions:"CONFORME IAC SBFL, A ALTITUDE MÍNIMA DE SEGURANÇA SE APLICA EM UM RAIO DE ALCANCE DE?",
+        answers: [
+            { text: "25 NM DO VOR FLN.", correct: true},
+            { text: "NM DO DME FLN.", correct: false},
+            { text: "10 NM DO DME FLN.", correct: false},
+            { text: "10 NM DO VOR XRO.", correct: false},
+        ]
+    },
+    {
+        questions:"O SELETOR DE CURSOS DE UM VOR INDICA A (0)?",
+        answers: [
+            { text: "MARCAÇÃO.", correct: false},
+            { text: "PROA.", correct: false},
+            { text: "RUMO.", correct: true},
+            { text: "LINHA DE POSIÇÃO.", correct: false},
+        ]
+    },
+    {
+        questions:"O FUSO HORÁRIO ABRANGE UMA FAIXA DE?",
+        answers: [
+            { text: "7°30' DE LONGITUDE.", correct: false},
+            { text: "15º DE LONGITUDE.", correct: true},
+            { text: "15° DE LATITUDE.", correct: false},
+            { text: "7°30' DE LATITUDE.", correct: false},
+        ]
+    },
+    {
+        questions:"A CADA 1000 FT DE ALTITUDE A VELOCIDADE AERODIN MICA AUMENTA, EM RELAÇÃO À VELOCIDADE INDICADA, DE?",
+        answers: [
+            { text: "3%.", correct: false},
+            { text: "2%.", correct: true},
+            { text: "4%.", correct: false},
+            { text: "1%.", correct: false},
+        ]
+    },
+    {
+        questions:"UMA AERONAVE PARA SEGUIR DETERMINADO RUMO, COM VENTO DE CAUDA E DA DIREITA, CORRIGIRÁ A PROA COM  NGULO DE DERIVA?",
+        answers: [
+            { text: "POSITIVO.", correct: true},
+            { text: "INDIFERENTE.", correct: false},
+            { text: "NEGATIVO.", correct: false},
+            { text: "NULO.", correct: false},
+        ]
+    },
+    {
+        questions:"AS PROJEÇÕES CARTOGRÁFICAS, QUANTO À ORIGEM, PODEM SER?",
+        answers: [
+            { text: "ESFÉRICAS, GRATICULADAS, MERIDIONAIS E LOXODRÔMICAS.", correct: false},
+            { text: "CILÍNDRICAS, CÔNICAS, GEOMÉTRICAS E PLANIFICADAS.", correct: false},
+            { text: "MERCATOR, TANGENTES E TRANSVERSAS.", correct: false},
+            { text: "ESTEREOGRÁFICAS, GNOMÔNICAS E ORTOGRÁFICAS.", correct: true},
+        ]
+    },
+    {
+        questions:"O SISTEMA MUNDIAL DE NAVEGAÇÃO POR SATÉLITES É RECONHECIDO PELAS INICIAIS?",
+        answers: [
+            { text: "RNAV.", correct: false},
+            { text: "GLONASS.", correct: false},
+            { text: "RVSM.", correct: false},
+            { text: "GNSS.", correct: true},
+        ]
+    },
 ];
 
 const questionElement = document.getElementById("question");

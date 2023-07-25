@@ -9,6 +9,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     prova02Button.addEventListener("click", function() {
         // Redirecionar para a página da Prova 02 (substitua "prova02.html" pelo nome do arquivo da segunda prova).
-        window.location.href = "../Simulado/HTML/ProvaN1.html";
+        window.location.href = "../Simulado/HTML/ProvaN2.html";
     });
 });
