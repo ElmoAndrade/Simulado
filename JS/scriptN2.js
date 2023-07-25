@@ -105,20 +105,6 @@ function selectAnswer(e) {
 }
 
 
-function showScore() {
-    resetState();
-    questionElement.innerHTML = `Você acertou ${score} de ${questions.length}!<br><br>`;
-    questions.forEach((question, index) => {
-        const selectedAnswer = question.answers.find(answer => answer.text === questions[index].selectedAnswer);
-        const isCorrect = selectedAnswer && selectedAnswer.correct;
-        const emoji = isCorrect ? "✅" : "❌";
-        questionElement.innerHTML += `${index + 1}. ${question.questions} - ${questions[index].selectedAnswer} ${emoji}<br>`;
-    });
-    nextButton.innerHTML = "Tentar novamente";
-    nextButton.style.display = "block";
-}
-
-
 function handleNexButton(){
     currentQuestionIndex++;
     if(currentQuestionIndex < questions.length){
@@ -135,6 +121,26 @@ nextButton.addEventListener("click", ()=> {
         starQuiz();
     }
 })
+
+function showScore() {
+    resetState();
+    questionElement.innerHTML = `Você acertou ${score} de ${questions.length}!<br><br>`;
+    let htmlContent = ""; // Variável para armazenar o conteúdo das perguntas
+
+    questions.forEach((question, index) => {
+        const selectedAnswer = question.answers.find(answer => answer.text === questions[index].selectedAnswer);
+        const isCorrect = selectedAnswer && selectedAnswer.correct;
+        const emoji = isCorrect ? "✅" : "❌";
+
+        // Adiciona a pergunta atual ao conteúdo HTML com espaçamento
+        htmlContent += `${index + 1}. ${question.questions} - ${questions[index].selectedAnswer} ${emoji}<br><br>`;
+    });
+
+    questionElement.innerHTML += htmlContent; // Atualiza o elemento com todo o conteúdo das perguntas
+    nextButton.innerHTML = "Tentar novamente";
+    nextButton.style.display = "block";
+}
+
 
 
 
