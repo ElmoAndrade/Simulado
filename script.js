@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
     prova01Button.addEventListener("click", function() {
         // Redirecionar para a página da Prova 01 (substitua "prova01.html" pelo nome do arquivo da primeira prova).
-        window.location.href = "/HTML/ProvaN1.html";
+        window.location.href = "../Simulado/HTML/ProvaN1.html";
     });
 
     prova02Button.addEventListener("click", function() {
         // Redirecionar para a página da Prova 02 (substitua "prova02.html" pelo nome do arquivo da segunda prova).
-        window.location.href = "../ProvaN2.html";
+        window.location.href = "../Simulado/HTML/ProvaN1.html";
     });
 });
