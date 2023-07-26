@@ -13,6 +13,7 @@ body {
 }
 
 h1 {
+    text-align: center;
     font-size: 36px;
     margin-bottom: 20px;
 }
@@ -34,4 +35,12 @@ button {
 
 button:hover {
     background-color: #0f4396;
+}
+
+@media screen and (max-width: 768px) {
+    .prova-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }    
 }
