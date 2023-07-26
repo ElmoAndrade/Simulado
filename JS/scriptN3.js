@@ -36,7 +36,7 @@ const questions = [
         ]
     },
     {
-        questions:"NA VERTICAL DA POSIÇÃO BRICK, ESƟMOU COMBUSƠVEL GASTO EM?",
+        questions:"NA VERTICAL DA POSIÇÃO BRICK, ESTIMOU COMBUSƠVEL GASTO EM?",
         answers: [
             { text: "2191KG.", correct: true},
             { text: "2346KG.", correct: false},
@@ -81,7 +81,7 @@ const questions = [
         ]
     },
     {
-        questions:"FOI INSTRUÍDO DESCER ATÉ A ALƟTUDE DE TRANSIÇÃO PARA POUSO, CUMPRINDO PROCEDIMENTO ILS Z DA PISTA 15 DE CAMPINAS. PORTANTO, ESƟMOU TOD PARA?",
+        questions:"FOI INSTRUÍDO DESCER ATÉ A ALTITUDE DE TRANSIÇÃO PARA POUSO, CUMPRINDO PROCEDIMENTO ILS Z DA PISTA 15 DE CAMPINAS. PORTANTO, ESƟMOU TOD PARA?",
         answers: [
             { text: "17:33.", correct: false},
             { text: "17:37.", correct: true},
