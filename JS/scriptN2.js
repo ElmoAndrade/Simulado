@@ -56,8 +56,8 @@ const questions = [
     {
         questions:"A DISÂANCIA DE DESCIDA EM FLORIANÓPOLIS É DE?",
         answers: [
-            { text: "64 NM.", correct: false},
-            { text: "84 NM.", correct: true},
+            { text: "64 NM.", correct: true},
+            { text: "84 NM.", correct: false},
             { text: "54 NM.", correct: false},
             { text: "74 NM.", correct: false},
         ]
