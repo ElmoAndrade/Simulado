@@ -1,7 +1,7 @@
 const questions = [
    {
         question:"DE ACORDO COM O CBA ( CÓDIGO BRASILEIRO DE AERONÁUTICA ), MEDIANTE REQUISIÇÃO DE AUTORIDADE ADUANEIRA, DE POLÍCIA OU DE SAÚDE, A AUTORIDADE AERONÁUTICA PODERÁ INTERDITAR A AERONAVE POR ATÉ",
-        answers: [
+        answer: [
             { text: "5 DIAS", correct: false},
             { text: "10 DIAS.", correct: false},
             { text: "15 DIAS.", correct: true},
