@@ -7,7 +7,7 @@ INTERDITAR A AERONAVE POR ATÉ",
             { text: "5 DIAS", correct: false},
             { text: "10 DIAS.", correct: false},
             { text: "15 DIAS.", correct: true},
-            { text: " 20 DIAS.", correct: false},
+            { text: "20 DIAS.", correct: false},
         ]
     },
 {
