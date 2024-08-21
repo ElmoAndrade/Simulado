@@ -105,7 +105,7 @@ const questions = [
             { text: " CURVA DE APROXIMAÇÃO.", correct: false },
             { text: " PERNA DE TRAVÉS", correct: false },
             { text: " CURVA BASE.", correct: false },
-            { text: "PERNA BASE.", correct: True },
+            { text: "PERNA BASE.", correct: true },
         ]
     },
     {
