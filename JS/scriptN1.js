@@ -382,7 +382,7 @@ const questions = [
         questions: "QUALQUER ÁREA DESTINADA A POUSO, DECOLAGEM E MOVIMENTAÇÃO DE AERONAVES DENOMINA- SE",
         answers: [
             { text: "AEROPORTO.", correct: false },
-            { text: "HELIPORTO. ", correct: false },
+            { text: "HELIPORTO. ", correct: faalse },
             { text: "AERÓDROMO.", correct: true },
             { text: "AERÓDINO.", correct: false },
         ]
