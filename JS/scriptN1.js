@@ -200,7 +200,7 @@ const questions = [
     {
         questions: "SABENDO-SE QUE A RWY 17-35 DE CONGONHAS TEM 1939 METROS DE COMPRIMENTO E AS MARCAS DE PONTOS DE ESPERA NÃO ESTÃO VISÍVEIS, O PILOTO DE UMA AERONAVE, NA POSIÇÃO 2, DEVE AGUARDAR A AUTORIZAÇÃO PARA TOMAR POSIÇÃO E DECOLAR, A UMA DISTÂNCIA, DA LATERAL DA PISTA, DE: ",
         answers: [
-            { text: "50 M.", correct: True },
+            { text: "50 M.", correct: true },
             { text: "30 M.", correct: false },
             { text: "40 M.", correct: false },
             { text: "60 M.", correct: false },
