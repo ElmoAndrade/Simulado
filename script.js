@@ -6,20 +6,20 @@ document.addEventListener("DOMContentLoaded", function() {
 
     prova01Button.addEventListener("click", function() {
         // Redirecionar para a página da Prova 01 (substitua "prova01.html" pelo nome do arquivo da primeira prova).
-        window.location.href = "../HTML/ProvaN1.html";
+        window.location.href = "../Simulado/HTML/ProvaN1.html";
     });
 
     prova02Button.addEventListener("click", function() {
         // Redirecionar para a página da Prova 02 (substitua "prova02.html" pelo nome do arquivo da segunda prova).
-        window.location.href = "../HTML/ProvaN2.html";
+        window.location.href = "../Simulado/HTML/ProvaN2.html";
     });
 
     prova03Button.addEventListener("click", function() {
         // Redirecionar para a página da Prova 03 (substitua "prova03.html" pelo nome do arquivo da segunda prova).
-        window.location.href = "../HTML/ProvaN3.html";
+        window.location.href = "../Simulado/HTML/ProvaN3.html";
     });
     prova04Button.addEventListener("click", function() {
         // Redirecionar para a página da Prova 04 (substitua "prova04.html" pelo nome do arquivo da segunda prova).
-        window.location.href = "../HTML/ProvaN4.html";
+        window.location.href = "../Simulado/HTML/ProvaN4.html";
     });
 });
